@@ -60,8 +60,10 @@ if [ -z "$ZSH_COMPDUMP" ]; then
 fi
 
 # Load and run compinit
-autoload -U compinit
-compinit -i -d "${ZSH_COMPDUMP}"
+### Disabled by zshrc
+###autoload -U compinit
+### Disabled by zshrc
+###compinit -i -d "${ZSH_COMPDUMP}"
 
 # Load all of the plugins that were defined in ~/.zshrc
 for plugin ($plugins); do
